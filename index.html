@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Interview Mirror</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #101827;
+            color: white;
+            min-height: 100vh;
+        }
+
+        header {
+            padding: 22px 8%;
+            background: #172337;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            color: #54e5c2;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 90px 20px;
+        }
+
+        .hero h1 {
+            font-size: 44px;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 span {
+            color: #54e5c2;
+        }
+
+        .hero p {
+            color: #c2ccda;
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 26px;
+            background: #54e5c2;
+            color: #101827;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 22px;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #1c2b40;
+            padding: 28px;
+            border-radius: 12px;
+            width: 260px;
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #54e5c2;
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            color: #c2ccda;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #9ba9ba;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Smart Mirror</h2>
+        <span>AI Interview Practice</span>
+    </header>
+
+    <section class="hero">
+        <h1>Practice. Improve. <span>Succeed.</span></h1>
+
+        <p>
+            Prepare for your next interview with confidence.<br>
+            Practice questions and improve your interview skills.
+        </p>
+
+        <a href="/interview" class="btn">Start Interview Practice →</a>
+    </section>
+
+    <section class="features">
+        <div class="card">
+            <h3>🎯 Practice Questions</h3>
+            <p>Prepare for common interview questions.</p>
+        </div>
+
+        <div class="card">
+            <h3>💡 Build Confidence</h3>
+            <p>Practice speaking and express your answers clearly.</p>
+        </div>
+
+        <div class="card">
+            <h3>📈 Improve Skills</h3>
+            <p>Develop better interview preparation habits.</p>
+        </div>
+    </section>
+
+    <footer>
+        Smart Interview Mirror | Your Interview Practice Partner
+    </footer>
+
+</body>
+</html>
